@@ -2,6 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Simple React JS Project
+
+## What is the use of this Repo
+
+This Project is a Simple Front End (ReactJS) Project which demonstrates the following
+
+1. This app built using functional components.
+2. Folder structure is manageable and every component is light weighted.
+3. Clean code with optimized way.
+4. Command to run app is "npm start".
+5. First interface will be a login page that contains basic validation.
+6. This app is containing Protected routing means you have to enter valid any username and any password. like:- username : dummy_project , password : dummy12345
+
+7. App component is main component of this app which is handle api calling and pass data to its children with the help of props.
+8. Home component managed and show, filter, reset nft list.
+9. Making HTTP calls in a seperate component.
+10. Communicating between parent and child component.
+11. Using Bootstrap along with React.
+12. Using Basic Routing in React.
+
 ## Available Scripts
 
 In the project directory, you can run:
