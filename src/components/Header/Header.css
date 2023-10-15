@@ -1,0 +1,10 @@
+.header nav{
+    background: var(--Primary-Color);
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+    border: none;
+}
+.navbar-toggler{
+    border: none;
+}

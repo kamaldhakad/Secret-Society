@@ -1,0 +1,18 @@
+form{
+    background-color: var(--Secondary-Color);
+    border-radius: 10px;
+    padding: 25px;
+}
+form h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+    text-align: center;
+}
+form label{
+    color: #fff;
+}
+form p.error{
+    font-size: 12px;
+    color: #f00;
+}

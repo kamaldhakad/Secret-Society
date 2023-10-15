@@ -1,0 +1,64 @@
+/* VARIABLES */
+:root{
+  --Primary-Color: #ac7758;
+  --Secondary-Color: #40251f;
+  --Thursery-Color: #ff0;
+  --Footer-Color: #1d0e0f;
+
+  /* Gradient */
+  --Primary-Gradient: linear-gradient(90deg, var(--Secondary-Color), var(--Primary-Color));
+}
+
+/* RESET STYLE */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background: #000;
+}
+
+input,textarea{
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 1.25;
+  margin-bottom: 15px;
+}
+
+p{
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Global Style */
+.btn-Primary{
+  background: var(--Primary-Color);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  text-transform: capitalize;
+  transition: all ease 0.25s;
+}
+.btn-Primary:hover{
+  background: #000;
+  color: #fff;
+}
+.btn-linear{
+  background: var(--Primary-Gradient);
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: all ease 0.25s;
+  margin-top: 15px;
+  border: none;
+}
+.btn-linear:hover{
+  color: #000;
+}
